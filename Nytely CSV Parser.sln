@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Nytely CSV Parser", "Nytely CSV Parser.njsproj", "{9E97D989-1685-470C-95D3-5C00D9B2FFDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E97D989-1685-470C-95D3-5C00D9B2FFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E97D989-1685-470C-95D3-5C00D9B2FFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E97D989-1685-470C-95D3-5C00D9B2FFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E97D989-1685-470C-95D3-5C00D9B2FFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD7DC98D-E067-47A4-8283-77D10FD71582}
+	EndGlobalSection
+EndGlobal
