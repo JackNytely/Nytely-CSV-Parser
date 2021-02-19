@@ -29,7 +29,6 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include=".gitattributes" />
     <Content Include=".gitignore" />
     <Content Include=".vs\ProjectSettings.json" />
     <Content Include=".vs\slnx.sqlite" />
