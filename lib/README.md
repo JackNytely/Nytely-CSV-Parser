@@ -45,7 +45,7 @@ CSVParser.ParseEvents.on('resume', () => {
 CSVParser.ParseEvents.on('end', () => {
 	//Does something once the Parsed Data Stream has Ended.
 });
-``` <br/>
+```
 
 ## Example
 ```js
@@ -56,7 +56,7 @@ a,b,c
 4,3,6
 3,1,1
 "foo", "bar", "ten"
-``` <br/>
+``` 
 
 ```js
 //example.js
@@ -86,13 +86,13 @@ CSVParser.ParseEvents.on('data', (data, count) => {
 	//Resume the Parsed Data Stream
 	CSVParser.Parse.resume()
 });
-``` <br/>
+```
 
 ```js
 //CONSOLE OUTPUT:
 
 [ [a: 1, b: 3, c: 1], [a: 4, b: 3, c: 6], [a: 3, b: 1, c: 1], [a: 'foo', b: 'bar', c: 'world'] ]
-``` <br/>
+```
 
 ## Feedback
 Please feel free to join our Discord Server for Discussion on the Package. <br/>
