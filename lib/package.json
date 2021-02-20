@@ -1,6 +1,6 @@
 {
   "name": "nytely-csv-parser",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "A simple and light-weight CSV Parser which has the ability to handle Most sizes of CSV File Types, even a CSV file with 5,000,000 entries.",
   "main": "app.js",
   "scripts": {

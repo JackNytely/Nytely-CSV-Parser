@@ -1,18 +1,18 @@
 ## Nytely CSV Parser
 
-This package allows the conversion from a CSV Format to a more friendly JS Array Format.
+This package allows the conversion from a CSV Format to a more friendly JS Array Format. <br/>
 
 Unlike most CSV Parsers currently available, this Parser streams the Parsed data in Chunks,
 this has the benefit of avoiding Memory Issues when trying to read Large CSV Files in JS, Furthermore, this also allows
-the user to tweak the "Chunk Size" of the Parsed Data for the requirements of their project.
+the user to tweak the "Chunk Size" of the Parsed Data for the requirements of their project. <br/>
 
-Parses approximately 10,000 entries per second.
+Parses approximately 10,000 entries per second. <br/>
 
-[![NPM](https://nodei.co/npm/nytely-csv-parser.png?stars&downloads)](https://nodei.co/npm/nytely-csv-parser/) [![NPM](https://nodei.co/npm-dl/nytely-csv-parser.png)](https://nodei.co/npm/nytely-csv-parser/)
+[![NPM](https://nodei.co/npm/nytely-csv-parser.png?stars&downloads)](https://nodei.co/npm/nytely-csv-parser/) <br/>
 
 ## Usage
 
-Installation command is `npm install nytely-csv-parser`.
+Installation Command: `npm install nytely-csv-parser`. <br/>
 
 ```js
 const CSVParser = require('nytely-csv-parser');
@@ -45,7 +45,7 @@ CSVParser.ParseEvents.on('resume', () => {
 CSVParser.ParseEvents.on('end', () => {
 	//Does something once the Parsed Data Stream has Ended.
 });
-```
+``` <br/>
 
 ## Example
 ```js
@@ -56,7 +56,7 @@ a,b,c
 4,3,6
 3,1,1
 "foo", "bar", "ten"
-```
+``` <br/>
 
 ```js
 //example.js
@@ -86,20 +86,20 @@ CSVParser.ParseEvents.on('data', (data, count) => {
 	//Resume the Parsed Data Stream
 	CSVParser.Parse.resume()
 });
-```
+``` <br/>
 
 ```js
 //CONSOLE OUTPUT:
 
 [ [a: 1, b: 3, c: 1], [a: 4, b: 3, c: 6], [a: 3, b: 1, c: 1], [a: 'foo', b: 'bar', c: 'world'] ]
-```
+``` <br/>
 
-##Feedback
-Please feel free to join our Discord Server for Discussion on the Package.
-Any bugs/issues can be reported on our Github.
+## Feedback
+Please feel free to join our Discord Server for Discussion on the Package. <br/>
+Any bugs/issues can be reported on our Github. <br/>
 
-Discord: https://discord.gg/kUBXjaM
-Github: https://github.com/JackNytely/Nytely-CSV-Parser
+Discord: https://discord.gg/kUBXjaM <br/>
+Github: https://github.com/JackNytely/Nytely-CSV-Parser <br/>
 
-##Thankyou
-Thankyou for using our package, we are always here to be of assistance ^_^.
+## Thankyou
+Thankyou for using our package, we are always here to be of assistance ^_^. <br/>
